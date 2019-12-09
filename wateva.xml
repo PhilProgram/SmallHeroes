@@ -1,0 +1,7 @@
+<!DOCTYPE SpriteDecomposer>
+<sprites image="sorcerSheet.png" transparentColor="">
+ <animation title="Default animation" delay="150"/>
+ <animation title="standing" delay="150">
+  <cut w="38" x="57" y="16" h="47" row="1" col="1"/>
+ </animation>
+</sprites>

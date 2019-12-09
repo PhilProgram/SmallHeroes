@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="500" height="40" tilewidth="32" tileheight="32" nextobjectid="1">
+ <tileset firstgid="1" name="Brick" tilewidth="32" tileheight="32">
+  <image source="../../PacSFML/PacSFML/wall.png" width="306" height="201"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="500" height="40">
+  <data encoding="base64" compression="zlib">
+   eJzt3NlKw1AUBdDrUBVncRZncRZn///XPKUNhpJG6ZCmZi3YD+0+N6VPJXDSlAAAAAAAAAAAAOB/uM+l9/UgAQCq5/ccAAAA6qFu998zkdnIXGQ+0oosVPTZAAAAUDf5++RBegBg8pYjK5HVAXsAoF72IvtD9ABAfVwM2fdzHDmJnI5oDgAo9xh5GqIvch25idyOaA4AKPcZ+RqiL/IceYm8jmgOAJqi9znvtvZz3ouRpYK+NWX9X75z2bPt45gd9RwA5PfT17rvbUQ2I1up//56Ud8+v15yfhI9ADTBdmQnsps6++lFsj5zEDks6LP99qw/Krh+1T0ANEF+V/wscp46++mXkavuTO8uedannr7o/G/XH3cPAE2Q3xW/S53/Z39I5fvp+f6385PuAaAJ8rvib5H3yEf62U+f9h4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACq9A0uWC51
+  </data>
+ </layer>
+ <objectgroup name="Object Layer 1"/>
+</map>

@@ -1,0 +1,30 @@
+<!DOCTYPE SpriteDecomposer>
+<sprites image="sorcerSheet.png" transparentColor="">
+ <animation title="Jump" delay="190">
+  <cut w="48" x="8" y="96" h="44" row="1" col="1"/>
+  <cut w="50" x="59" y="71" h="57" row="1" col="1"/>
+  <cut w="57" x="109" y="71" h="54" row="1" col="1"/>
+  <cut w="50" x="170" y="67" h="58" row="1" col="1"/>
+  <cut w="45" x="52" y="15" h="52" row="1" col="1"/>
+ </animation>
+ <animation title="Walking" delay="190">
+  <cut w="49" x="8" y="99" h="41" row="1" col="1"/>
+  <cut w="32" x="46" y="146" h="47" row="1" col="1"/>
+  <cut w="38" x="80" y="146" h="46" row="1" col="1"/>
+  <cut w="37" x="117" y="146" h="47" row="1" col="1"/>
+  <cut w="35" x="156" y="140" h="53" row="1" col="1"/>
+  <cut w="37" x="191" y="143" h="50" row="1" col="1"/>
+  <cut w="31" x="227" y="145" h="48" row="1" col="1"/>
+  <cut w="32" x="267" y="145" h="49" row="1" col="1"/>
+ </animation>
+ <animation title="CoolJump" delay="190">
+  <cut w="32.5" x="8.5" y="141" h="51" row="1" col="1"/>
+  <cut w="34" x="45" y="141" h="51" row="1" col="1"/>
+  <cut w="37" x="265" y="146" h="50" row="1" col="1"/>
+  <cut w="37" x="116" y="146" h="48" row="1" col="1"/>
+  <cut w="35.5" x="157.5" y="146.5" h="48.5" row="1" col="1"/>
+  <cut w="31.5" x="197.5" y="146.5" h="47.5" row="1" col="1"/>
+  <cut w="31.5" x="233.5" y="146" h="48" row="1" col="1"/>
+  <cut w="37" x="265" y="146" h="50" row="1" col="1"/>
+ </animation>
+</sprites>

@@ -1,0 +1,27 @@
+<!DOCTYPE SpriteDecomposer>
+<sprites image="Troll.png" transparentColor="">
+ <animation title="Walk" delay="170">
+  <cut w="32" x="8" y="64" h="32" row="1" col="1"/>
+  <cut w="31" x="56" y="65" h="31" row="1" col="1"/>
+  <cut w="33" x="103" y="65" h="31" row="1" col="1"/>
+  <cut w="32" x="392" y="65" h="31" row="1" col="1"/>
+  <cut w="31" x="440" y="65" h="31" row="1" col="1"/>
+  <cut w="33" x="151" y="66" h="30" row="1" col="1"/>
+  <cut w="33" x="199" y="66" h="30" row="1" col="1"/>
+  <cut w="33" x="247" y="66" h="30" row="1" col="1"/>
+  <cut w="32" x="296" y="66" h="30" row="1" col="1"/>
+  <cut w="32" x="344" y="66" h="30" row="1" col="1"/>
+ </animation>
+ <animation title="Die" delay="170">
+  <cut w="32" x="8" y="208" h="32" row="1" col="1"/>
+  <cut w="31" x="55" y="210" h="30" row="1" col="1"/>
+  <cut w="31" x="100" y="213" h="27" row="1" col="1"/>
+  <cut w="34" x="148" y="214" h="26" row="1" col="1"/>
+  <cut w="31" x="196" y="215" h="25" row="1" col="1"/>
+  <cut w="30" x="244" y="215" h="25" row="1" col="1"/>
+  <cut w="30" x="292" y="216" h="24" row="1" col="1"/>
+  <cut w="28" x="340" y="220" h="20" row="1" col="1"/>
+  <cut w="30" x="386" y="226" h="14" row="1" col="1"/>
+  <cut w="32" x="432" y="232" h="8" row="1" col="1"/>
+ </animation>
+</sprites>
