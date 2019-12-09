@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="a.tsx" />
+    <None Include="lelelOne.tmx" />
+    <None Include="lev.tmx" />
+    <None Include="SmallHeroes.vcxproj" />
+    <None Include="SmallHeroes.vcxproj.filters" />
+    <None Include="SmallHeroes.vcxproj.user" />
+    <None Include="testTmx.tmx" />
+    <None Include="warriorspritesheet.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="anim_megaman.xml" />
+    <Xml Include="archie.xml" />
+    <Xml Include="elfy.xml" />
+    <Xml Include="mario.xml" />
+    <Xml Include="Megaman.xml" />
+    <Xml Include="sorcer.xml" />
+    <Xml Include="sorcerv2.xml" />
+    <Xml Include="sorcerV3.xml" />
+    <Xml Include="testingelf.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Animation.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Board.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Checkpoint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionHandling.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DynamicObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameClient.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="level.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayButton.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Spike.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Tile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tinystr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyxml.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Wizard.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="arcaneArcher.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="archersheet.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="back-icon.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Crusadersheet.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="elfsheet.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ExitButton.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="goback.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="GreenMountain.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="levelOne.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="levelselect.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="levelThree.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="levelTwo.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="magicWizardSheet.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="mario.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="megaman.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="MegaManSheet.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="MenuBackground.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="PlayButton.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="playnow.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="sorcerSheet.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="swordmansheet.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="tileset2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="wall.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="WizardSpriteSheet.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Board.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Checkpoint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionHandling.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Controller.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DynamicObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameClient.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayButton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Spike.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Tile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tinystr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxml.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxmlerror.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxmlparser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Wizard.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="level.txt" />
+  </ItemGroup>
+</Project>

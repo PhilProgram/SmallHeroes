@@ -1,0 +1,11 @@
+<!DOCTYPE SpriteDecomposer>
+<sprites image="elfsheet.png" transparentColor="">
+ <animation title="Walking" delay="150">
+  <cut w="45" x="168" y="74" h="55" row="1" col="1"/>
+  <cut w="47" x="274" y="74" h="55" row="1" col="1"/>
+  <cut w="44" x="386" y="75" h="55" row="1" col="1"/>
+  <cut w="45" x="491" y="75" h="54" row="1" col="1"/>
+  <cut w="45" x="597" y="74" h="55" row="1" col="1"/>
+ </animation>
+ <animation title="Walking" delay="150"/>
+</sprites>

@@ -1,0 +1,6 @@
+<!DOCTYPE SpriteDecomposer>
+<sprites image="Wall.png" transparentColor="A1271C">
+ <animation title="move" delay="150">
+  <cut w="89" x="79" y="72" h="23" row="1" col="1"/>
+ </animation>
+</sprites>

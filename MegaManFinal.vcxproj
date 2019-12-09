@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{CF81A237-A89F-4819-890E-F1EFE9B37ABC}</ProjectGuid>
+    <RootNamespace>MegaManFinal</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="Animation.hpp" />
+    <ClInclude Include="Board.h" />
+    <ClInclude Include="Bullet.h" />
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="Checkpoint.h" />
+    <ClInclude Include="CollisionHandling.h" />
+    <ClInclude Include="Controller.h" />
+    <ClInclude Include="DynamicObject.h" />
+    <ClInclude Include="Elevator.h" />
+    <ClInclude Include="GameClient.h" />
+    <ClInclude Include="GameObject.h" />
+    <ClInclude Include="Goal.h" />
+    <ClInclude Include="Ladder.h" />
+    <ClInclude Include="level.hpp" />
+    <ClInclude Include="MainMenu.h" />
+    <ClInclude Include="MovementBlocker.h" />
+    <ClInclude Include="PlayButton.h" />
+    <ClInclude Include="Spike.h" />
+    <ClInclude Include="StaticObject.h" />
+    <ClInclude Include="Tile.h" />
+    <ClInclude Include="tinystr.h" />
+    <ClInclude Include="tinyxml.h" />
+    <ClInclude Include="Troll.h" />
+    <ClInclude Include="Wizard.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Board.cpp" />
+    <ClCompile Include="Bullet.cpp" />
+    <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="Checkpoint.cpp" />
+    <ClCompile Include="CollisionHandling.cpp" />
+    <ClCompile Include="Controller.cpp" />
+    <ClCompile Include="DynamicObject.cpp" />
+    <ClCompile Include="Elevator.cpp" />
+    <ClCompile Include="GameClient.cpp" />
+    <ClCompile Include="GameObject.cpp" />
+    <ClCompile Include="Goal.cpp" />
+    <ClCompile Include="Ladder.cpp" />
+    <ClCompile Include="MainMenu.cpp" />
+    <ClCompile Include="MovementBlocker.cpp" />
+    <ClCompile Include="PlayButton.cpp" />
+    <ClCompile Include="Spike.cpp" />
+    <ClCompile Include="StaticObject.cpp" />
+    <ClCompile Include="Tile.cpp" />
+    <ClCompile Include="tinystr.cpp" />
+    <ClCompile Include="tinyxml.cpp" />
+    <ClCompile Include="tinyxmlerror.cpp" />
+    <ClCompile Include="tinyxmlparser.cpp" />
+    <ClCompile Include="Troll.cpp" />
+    <ClCompile Include="Wizard.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="a.tsx" />
+    <None Include="lelelOne.tmx" />
+    <None Include="lev.tmx" />
+    <None Include="level1.tmx" />
+    <None Include="level2.tmx" />
+    <None Include="level3.tmx" />
+    <None Include="MegaManFinal.vcxproj.user" />
+    <None Include="pewducktheme.ogg" />
+    <None Include="SmallHeroes.vcxproj.user" />
+    <None Include="testTmx.tmx" />
+    <None Include="warriorspritesheet.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="arcaneArcher.png" />
+    <Image Include="archersheet.jpg" />
+    <Image Include="back-icon.png" />
+    <Image Include="back.jpeg" />
+    <Image Include="background.jpg" />
+    <Image Include="checkp.png" />
+    <Image Include="cityscraper.jpg" />
+    <Image Include="Crusadersheet.png" />
+    <Image Include="darkcity.jpg" />
+    <Image Include="elfsheet.png" />
+    <Image Include="ExitButton.png" />
+    <Image Include="goback.jpg" />
+    <Image Include="GreenMountain.png" />
+    <Image Include="levelOne.jpg" />
+    <Image Include="levelselect.jpg" />
+    <Image Include="levelThree.jpg" />
+    <Image Include="levelTwo.jpg" />
+    <Image Include="magicWizardSheet.png" />
+    <Image Include="mario.png" />
+    <Image Include="megacool.jpg" />
+    <Image Include="megaman.png" />
+    <Image Include="MegaManSheet.png" />
+    <Image Include="MenuBackground.jpg" />
+    <Image Include="pewlaying.jpg" />
+    <Image Include="PlayButton.png" />
+    <Image Include="playnow.jpg" />
+    <Image Include="sorcerSheet.png" />
+    <Image Include="swordmansheet.png" />
+    <Image Include="tileset2.png" />
+    <Image Include="Troll.png" />
+    <Image Include="Wall.png" />
+    <Image Include="WizardSpriteSheet.png" />
+    <Image Include="YellowCheck.png" />
+    <Image Include="yellowcheckpoint.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="level.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="chekpoint.wav" />
+    <Media Include="buttonselect" />
+    <Media Include="cheering.wav" />
+    <Media Include="Select.wav" />
+    <Media Include="urg.wav" />
+    <Media Include="ItemSmash.wav" />
+    <Media Include="Jump.wav" />
+    <Media Include="jumpTwo.wav" />
+    <Media Include="ouch.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="anim_megaman.xml" />
+    <Xml Include="archie.xml" />
+    <Xml Include="Elevator.xml" />
+    <Xml Include="Elevator2.xml" />
+    <Xml Include="elfy.xml" />
+    <Xml Include="lasertest.xml" />
+    <Xml Include="mario.xml" />
+    <Xml Include="Megaman.xml" />
+    <Xml Include="NewSorcerAnimation.xml" />
+    <Xml Include="NewTrollAnimation.xml" />
+    <Xml Include="sorcer.xml" />
+    <Xml Include="sorcerv2.xml" />
+    <Xml Include="sorcerV3.xml" />
+    <Xml Include="testingelf.xml" />
+    <Xml Include="Troll.xml" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

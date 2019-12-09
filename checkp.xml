@@ -1,0 +1,10 @@
+<!DOCTYPE SpriteDecomposer>
+<sprites image="MegaManSheet.png" transparentColor="0">
+ <animation title="check" delay="150">
+  <cut w="31" x="43" y="10" h="43" row="1" col="1"/>
+  <cut w="33" x="76" y="12" h="41" row="1" col="1"/>
+  <cut w="32" x="110" y="16" h="37" row="1" col="1"/>
+  <cut w="32" x="144" y="18" h="35" row="1" col="1"/>
+  <cut w="31" x="179" y="20" h="33" row="1" col="1"/>
+ </animation>
+</sprites>

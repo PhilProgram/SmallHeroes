@@ -1,0 +1,60 @@
+<!DOCTYPE SpriteDecomposer>
+<sprites image="sorcerSheet.png" transparentColor="">
+ 
+ <animation title="walk" delay="150">
+  <cut w="32" x="8" y="146" h="46" row="1" col="1"/>
+  <cut w="32" x="46" y="146" h="47" row="1" col="1"/>
+  <cut w="32" x="83" y="146" h="47" row="1" col="1"/>
+  <cut w="32" x="119" y="147" h="47" row="1" col="1"/>
+  <cut w="31" x="197" y="147" h="47" row="1" col="1"/>
+  <cut w="32" x="232" y="147" h="47" row="1" col="1"/>
+  <cut w="33" x="158" y="148" h="46" row="1" col="1"/>
+  <cut w="30" x="270" y="148" h="47" row="1" col="1"/>
+ </animation>
+ <animation title="jump" delay="150">
+  <cut w="41" x="65" y="74" h="54" row="1" col="1"/>
+  <cut w="44" x="119" y="69.5" h="53" row="1" col="1"/>
+  <cut w="49" x="169" y="69" h="53" row="1" col="1"/>
+  <cut w="46" x="10" y="99" h="40" row="1" col="1"/>
+ </animation>
+ <animation title="FireBall" delay="550">
+  <cut w="51" x="96.5" y="5" h="57" row="1" col="1"/>
+  <cut w="52" x="153" y="17" h="44" row="1" col="1"/>
+ </animation>
+
+
+
+
+
+
+
+
+
+  <animation title="standing" delay="150">
+    <cut w="38" x="57" y="16" h="47" row="1" col="1"/>
+  </animation>
+  <animation title="climb" delay="250">
+    <cut w="24.5" x="4.5" y="72" h="37" row="1" col="1"/>
+    <cut w="16.5" x="33.5" y="67" h="43" row="1" col="1"/>
+    <cut w="22" x="54" y="63" h="46" row="1" col="1"/>
+    <cut w="25" x="76" y="63" h="46" row="1" col="1"/>
+    <cut w="28" x="101" y="63" h="46" row="1" col="1"/>
+  </animation>
+  <animation title="LaserShot" delay="150">
+    <cut w="24" x="48" y="368" h="24" row="1" col="1"/>
+    <cut w="40" x="216" y="368" h="19" row="1" col="1"/>
+    <cut w="37" x="265" y="368" h="22" row="1" col="1"/>
+    <cut w="15" x="26" y="372" h="16" row="1" col="1"/>
+    <cut w="39" x="163" y="373" h="14" row="1" col="1"/>
+    <cut w="28" x="82" y="375" h="12" row="1" col="1"/>
+    <cut w="33" x="120" y="376" h="8" row="1" col="1"/>
+    <cut w="8" x="5" y="377" h="6" row="1" col="1"/>
+  </animation>
+  <animation title="check" delay="150">
+    <cut w="31" x="43" y="10" h="43" row="1" col="1"/>
+    <cut w="33" x="76" y="12" h="41" row="1" col="1"/>
+    <cut w="32" x="110" y="16" h="37" row="1" col="1"/>
+    <cut w="32" x="144" y="18" h="35" row="1" col="1"/>
+    <cut w="31" x="179" y="20" h="33" row="1" col="1"/>
+  </animation>
+</sprites>

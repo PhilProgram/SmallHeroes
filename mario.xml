@@ -1,0 +1,13 @@
+<!DOCTYPE SpriteDecomposer>
+<sprites image="mario.png" transparentColor="">
+ <animation title="walk" delay="200">
+  <cut w="14.5" x="208.5" y="0" h="21" row="1" col="1"/>
+  <cut w="19" x="326" y="0" h="21.5" row="1" col="1"/>
+ </animation>
+ <animation title="jump" delay="150">
+  <cut w="17" x="208" y="39" h="23.5" row="1" col="1"/>
+ </animation>
+ <animation title="seeUp" delay="150">
+  <cut w="16.5" x="327.5" y="39" h="22" row="1" col="1"/>
+ </animation>
+</sprites>

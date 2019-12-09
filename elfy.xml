@@ -1,0 +1,12 @@
+<!DOCTYPE SpriteDecomposer>
+<sprites image="elfsheet.png" transparentColor="">
+ <animation title="Default animation" delay="150"/>
+ <animation title="Run" delay="150">
+  <cut w="42" x="172" y="141" h="52" row="1" col="1"/>
+  <cut w="45" x="276" y="143" h="54" row="1" col="1"/>
+  <cut w="51" x="387" y="142" h="53" row="1" col="1"/>
+  <cut w="46" x="492" y="144" h="51" row="1" col="1"/>
+  <cut w="47" x="596" y="142" h="53" row="1" col="1"/>
+ </animation>
+
+</sprites>
